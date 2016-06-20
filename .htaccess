@@ -4,8 +4,8 @@ Options -MultiViews
 # turn rewriting on
 RewriteEngine On
 
-# When using the script within a sub-folder
-RewriteBase /admiral/
+# When using the script within a sub-folder add /<folder name>/
+RewriteBase /
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
