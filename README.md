@@ -5,5 +5,5 @@ Config file is located in Application/config/config.php
 When using the script within a sub-folder, dont change nothing.
 Otherwise change path in main .htaccess and config "URL".
 
-Other info:
+Other info:<br>
 Spent: 2hours & 1 pack of domino cookies (with milk of course)
