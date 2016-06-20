@@ -1,0 +1,14 @@
+# Necessary to prevent problems when using a controller named "index" and having a root index.php
+Options -MultiViews
+
+# turn rewriting on
+RewriteEngine On
+
+# When using the script within a sub-folder
+RewriteBase /admiral/
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
