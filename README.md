@@ -1,7 +1,7 @@
 # AMFA - Admiral Markets Flickr App
 Simple MVC application
 
-Config file is located in Application/config/config.php
+Config file is located in Application/config/config.php<br>
 When using the script change path in main .htaccess and in Application/config/config.php "URL".
 
 Other info:<br>
