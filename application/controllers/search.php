@@ -13,7 +13,7 @@ class Search extends Controller
 
     function tag($tag = '')
     {
-        $tag = trim($tag);
+        $tag = strip_tags(trim($tag));
 
         if(!$tag){ header('location: '.URL); }
 
