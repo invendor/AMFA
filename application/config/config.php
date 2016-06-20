@@ -16,7 +16,7 @@ ini_set("display_errors", 1);
  * Configuration for: Base URL
  */
 
-define('URL', 'http://localhost/admiral/');
+define('URL', 'http://localhost/');
 define('FLICKR_URL', 'https://api.flickr.com/services/feeds/photos_public.gne');
 
 
