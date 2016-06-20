@@ -1,6 +1,4 @@
-# AMFA
-Admiral Markets Flickr App
-
+# AMFA - Admiral Markets Flickr App
 Simple MVC application
 
 Config file is located in Application/config/config.php
